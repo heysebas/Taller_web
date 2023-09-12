@@ -58,7 +58,7 @@ body {
 }
 
 .link_header .dropdown-menu {
-    margin-top: 0.8%;
+    margin-top: 0.5%;
     display: none;
     position: absolute;
     background-color: var(--cuarto-color);
