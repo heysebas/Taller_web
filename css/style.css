@@ -21,15 +21,15 @@ body {
     height: 40px;
     background-color: var(--cuarto-color);
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center; 
 }
 
 
 .header .header_top {
     width: 95%;
     display: flex;
-    justify-content: space-between; /* Espacio entre el logo y la lista de enlaces */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -57,7 +57,6 @@ body {
     color: white;
 }
 
-/* Estilos para el menú desplegable */
 .link_header .dropdown-menu {
     display: none;
     position: absolute;
@@ -76,3 +75,22 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.titulo_1 h1,
+.texto p {
+    color: white;
+    text-align: center; 
+}
+
+.texto {
+    width: 73%;
+}
+
