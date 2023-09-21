@@ -27,6 +27,25 @@ body {
 }
 
 
+.titulo_1 {
+    text-align: center; 
+    margin-bottom: 2%;
+}
+
+.titulo_1 h1 {
+    position: relative; 
+}
+
+.titulo_1 h1::after {
+    content: "____"; 
+    position: absolute; 
+    bottom: -10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: yellow; 
+}
+
+
 .header .header_top {
     width: 95%;
     display: flex;
@@ -229,3 +248,22 @@ body {
 
 }
 
+
+.pricing {
+    text-align: center; 
+    margin-bottom: 2%;
+}
+
+.pricing h3 {
+    position: relative; 
+    margin-bottom: 2%;
+}
+
+.pricing h3::after {
+    content: "____"; 
+    position: absolute; 
+    bottom: -10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: yellow; 
+}
