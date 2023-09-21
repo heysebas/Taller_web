@@ -220,11 +220,13 @@ body {
     border: 1px solid #ccc;
     text-align: center;
     background-color: aliceblue;
+    border-radius: 15px;
 }
 
 .card_img img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 .container-plan-buy button {
