@@ -132,5 +132,23 @@ body {
 .container-free{
     border-style: solid;
     border-color: #605f5f;
+}
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
 
+.center .card {
+    width: 200px; 
+    height: 250px;
+    margin-right: 20px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    background-color: aliceblue;
+}
+
+.card_img img {
+    width: 100%; 
+    height: auto; 
 }
